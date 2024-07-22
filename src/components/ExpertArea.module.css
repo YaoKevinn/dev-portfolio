@@ -1,0 +1,36 @@
+.expertArea {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--box-shadow-color);
+  }
+  
+  .expertArea h2 {
+    margin-bottom: 10px;
+    color: var(--text-color);
+  }
+  
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--text-color);
+    gap: 5px;
+    border-radius: 10px;
+    width: 45px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }

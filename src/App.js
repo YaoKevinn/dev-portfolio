@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import Profile from './components/Profile';
+import WorkExperience from './components/WorkExperience';
+import Projects from './components/Projects';
+import ExpertArea from './components/ExpertArea';
+import Footer from './components/Footer';
+import styles from './App.module.css';
+import ScrollDialog from './components/ProjectScrollDialog';
 
 function App() {
+
+    const [isModalOpen, setIsModalOpen] = useState(true);
+
+    const openModal = () => setIsModalOpen(true);
+    const closeModal = () => setIsModalOpen(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.app}>
+      <Header />
+      <main className={styles.main}>
+        <div className={styles.topSection}>
+          <Profile />
+          <div className={styles.workAndExpertArea}>
+            <WorkExperience />
+            <ExpertArea />
+          </div>
+          <Projects />
+        </div>
+      </main>
+      <Footer />
     </div>
   );
 }

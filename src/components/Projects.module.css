@@ -1,0 +1,142 @@
+.projects {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--box-shadow-color);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 900px;
+    overflow: hidden;
+  }
+  
+  .projects h2 {
+    margin-bottom: 10px;
+    color: var(--text-color);
+  }
+  
+  .projectList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    flex: 1;
+    padding-right: 12px;
+  }
+  
+  /* Style for the scrollbar track */
+  .projectList::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .projectList::-webkit-scrollbar-track {
+    background: var(--background-color);
+    border-radius: 10px;
+  }
+  
+  /* Style for the scrollbar thumb */
+  .projectList::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .projectList::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Firefox scrollbar styles */
+  .projectList {
+    scrollbar-width: thin;
+    scrollbar-color: #888 var(--secondary-color);
+  }
+  
+  .projectItem {
+    background-color: var(--background-color);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px var(--box-shadow-color);
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .projectItem:hover {
+    background-color: var(--hover-background-color);
+    transform: scale(1.05);
+  }
+  
+  .projectItem img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .projectItem p {
+    position: relative;
+    top: 12px;
+    margin-top: 4px;
+    color: #888;
+  }
+
+  .projectItem strong {
+    position: relative;
+    top: 8px;
+    font-size: 16px;
+  }
+
+  .techStacks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+
+  .stackSpan{
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+  } 
+  
+  .screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .screenshots img {
+    flex: 1 1 calc(33.333% - 8px); /* 3 items per row, with gap considered */
+    max-width: calc(33.333% - 8px); /* Ensure no more than 3 items per row */
+    box-sizing: border-box;
+  }
+
+  /* Material UI Dialog */
+  .dialog {
+    background-color: var(--secondary-color); /* Set your desired background color */
+  }
+  
+  .dialogTitle {
+    background-color: var(--secondary-color); /* Set your desired title background color */
+    color: var(--text-color); /* Set your desired title text color */
+  }
+  
+  .dialogContent {
+    background-color: var(--secondary-color); /* Set your desired content background color */
+    color:  var(--text-color); /* Set your desired content text color */
+  }
+  
+  .dialogActions {
+    background-color: var(--secondary-color); /* Set your desired actions background color */
+    color:  var(--text-color); /* Set your desired actions text color */
+  }
+
+  .dialogContentText p {
+    margin-top: 0px;
+  }
+  
+  .dialogCloseButton {
+    color:  var(--text-color); 
+  }
