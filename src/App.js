@@ -6,14 +6,8 @@ import Projects from './components/Projects';
 import ExpertArea from './components/ExpertArea';
 import Footer from './components/Footer';
 import styles from './App.module.css';
-import ScrollDialog from './components/ProjectScrollDialog';
 
 function App() {
-
-    const [isModalOpen, setIsModalOpen] = useState(true);
-
-    const openModal = () => setIsModalOpen(true);
-    const closeModal = () => setIsModalOpen(false);
 
   return (
     <div className={styles.app}>

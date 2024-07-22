@@ -85,6 +85,7 @@
 
   .techStacks {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     gap: 4px;
@@ -111,6 +112,18 @@
     flex: 1 1 calc(33.333% - 8px); /* 3 items per row, with gap considered */
     max-width: calc(33.333% - 8px); /* Ensure no more than 3 items per row */
     box-sizing: border-box;
+  }
+
+  @media (max-width: 720px) {
+    .screenshots {
+      flex-direction: column;
+    }
+
+    .screenshots img {
+        flex: 1 1 calc(100% - 8px); /* 3 items per row, with gap considered */
+        max-width: calc(100% - 8px); /* Ensure no more than 3 items per row */
+        box-sizing: border-box;
+      }
   }
 
   /* Material UI Dialog */

@@ -20,6 +20,13 @@
     gap: 20px;
   }
   
+  /* Media query for screens smaller than 720px */
+  @media (max-width: 720px) {
+    .topSection {
+      flex-direction: column;
+    }
+  }
+  
   .topSection > * {
     flex: 1;
   }
