@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/dev-portfolio/static/css/main.a574cbee.css",
+    "main.js": "/dev-portfolio/static/js/main.7727af93.js",
+    "static/js/453.5a253c7e.chunk.js": "/dev-portfolio/static/js/453.5a253c7e.chunk.js",
+    "static/media/profilePhoto.jpg": "/dev-portfolio/static/media/profilePhoto.6c5986d085a942d12dc0.jpg",
+    "static/media/financial-02.PNG": "/dev-portfolio/static/media/financial-02.96c7592012ef24596d01.PNG",
+    "static/media/financial-05.PNG": "/dev-portfolio/static/media/financial-05.30723719a82fbd6656fc.PNG",
+    "static/media/financial-03.PNG": "/dev-portfolio/static/media/financial-03.9270b7c8e9c8ce380a9e.PNG",
+    "static/media/financial-01.PNG": "/dev-portfolio/static/media/financial-01.919bac342732792389f7.PNG",
+    "static/media/tiendacrypto-03.PNG": "/dev-portfolio/static/media/tiendacrypto-03.ea2764fd1008b37f0b6b.PNG",
+    "static/media/veganInspector-02.jpg": "/dev-portfolio/static/media/veganInspector-02.4981b7c0662c40c94474.jpg",
+    "static/media/veganInspector-01.jpg": "/dev-portfolio/static/media/veganInspector-01.71b2ce822b0507571210.jpg",
+    "static/media/financial-04.PNG": "/dev-portfolio/static/media/financial-04.a136ecc8121728d86a90.PNG",
+    "static/media/tiendacrypto-02.PNG": "/dev-portfolio/static/media/tiendacrypto-02.4afe48b30c04f4f95e09.PNG",
+    "static/media/tiendacrypto-05.PNG": "/dev-portfolio/static/media/tiendacrypto-05.b7f7de44b5195bf97555.PNG",
+    "static/media/tiendacrypto-01.PNG": "/dev-portfolio/static/media/tiendacrypto-01.2e443cc7d7eafc4d1912.PNG",
+    "static/media/tiendacrypto-04.PNG": "/dev-portfolio/static/media/tiendacrypto-04.fad3bb696f1c71624904.PNG",
+    "static/media/veganInspector-04.jpg": "/dev-portfolio/static/media/veganInspector-04.84a4fa61a65a78d80cd1.jpg",
+    "static/media/veganInspector-03.jpg": "/dev-portfolio/static/media/veganInspector-03.53b9b479b3e548e1d2f0.jpg",
+    "static/media/veganInspector-05.jpg": "/dev-portfolio/static/media/veganInspector-05.22a2cb4bb4f4e2e53209.jpg",
+    "static/media/veganInspector-cover.jpg": "/dev-portfolio/static/media/veganInspector-cover.373ca0e2a29b25d467f5.jpg",
+    "static/media/financial-cover.jpg": "/dev-portfolio/static/media/financial-cover.2259c7d702f2a3c04a8b.jpg",
+    "static/media/tiendacrypto-cover.jpg": "/dev-portfolio/static/media/tiendacrypto-cover.0d10f2e4ec1820f9b3da.jpg",
+    "static/media/tiendadolar.png": "/dev-portfolio/static/media/tiendadolar.ebd39016278deddc4498.png",
+    "static/media/swiftui.png": "/dev-portfolio/static/media/swiftui.68f87e5e94605030d581.png",
+    "static/media/accelone.svg": "/dev-portfolio/static/media/accelone.92bacccbac434ad53d7a7f584a94be7e.svg",
+    "static/media/swift.svg": "/dev-portfolio/static/media/swift.9558f201cb94ecae3eecd6d0fa43b39c.svg",
+    "index.html": "/dev-portfolio/index.html",
+    "main.a574cbee.css.map": "/dev-portfolio/static/css/main.a574cbee.css.map",
+    "main.7727af93.js.map": "/dev-portfolio/static/js/main.7727af93.js.map",
+    "453.5a253c7e.chunk.js.map": "/dev-portfolio/static/js/453.5a253c7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a574cbee.css",
+    "static/js/main.7727af93.js"
+  ]
+}
