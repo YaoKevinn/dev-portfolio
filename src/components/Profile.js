@@ -7,6 +7,7 @@ import profilePhoto from "../assets/profilePhoto.jpg";
 import { Snackbar } from '@mui/material';
 import Alert from '@mui/material/Alert';
 import { IoDocumentTextOutline } from "react-icons/io5";
+import cvFile from "../assets/Chien-Hsi-Yao-iOS-Developer-Resume.pdf";
 
 function Profile() {
 
@@ -63,29 +64,6 @@ function Profile() {
         }
       };
 
-      const downloadPdf = () => {
-        const url = `/Chien-Hsi-Yao-iOS-Developer-Resume.pdf`;
-        console.log(url);
-        fetch(url)
-          .then(response => {
-            if (!response.ok) {
-              throw new Error('Network response was not ok');
-            }
-            return response.blob();
-          })
-          .then(blob => {
-            const url = window.URL.createObjectURL(new Blob([blob]));
-            const link = document.createElement('a');
-            link.href = url;
-            link.setAttribute('download', 'Chien-Hsi-Yao-iOS-Developer-Resume.pdf');
-            document.body.appendChild(link);
-            link.click();
-            link.parentNode.removeChild(link);
-            window.URL.revokeObjectURL(url);
-          })
-          .catch(error => console.error('Error downloading the PDF:', error));
-      };
-
     return (
         <div className={styles.profile}>
             <img src={profilePhoto} className={styles.image} alt=""></img>
@@ -107,10 +85,16 @@ function Profile() {
                     <CiMail className={styles.buttonIcons} />
                     Email
                 </button>
-                <button onClick={() => downloadPdf()} className={styles.secondaryButton}>
+                {/* <button onClick={() => downloadPdf()} className={styles.secondaryButton}>
                     <IoDocumentTextOutline className={styles.buttonIcons} />
                     CV
-                </button>
+                </button> */}
+                <a href={cvFile} target="_blank" rel="noreferrer">
+                    <button className={styles.secondaryButton}>
+                        <IoDocumentTextOutline className={styles.buttonIcons} />
+                        CV
+                    </button>
+                </a>
             </div>
             <div className={styles.socialLinks}>
                 {/* Replace with actual social media icons */}

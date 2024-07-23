@@ -13,9 +13,9 @@ function WorkExperience() {
                     <img src={acceloneImage} alt="logo" />
                     <div className="col" style={{ flex: 1 }}>
                         <strong>AccelOne</strong>
-                        <span>Mid Senior iOS Developer</span>
+                        <span>iOS Developer</span>
                     </div>
-                    <span>(2023 - 2024)</span>
+                    <span>(2023 - Present)</span>
                 </li>
                 <li>
                     <img src={tiendacrypto} alt="logo" />
@@ -23,16 +23,16 @@ function WorkExperience() {
                         <strong>TiendaCrypto</strong>
                         <span>iOS Developer</span>
                     </div>
-                    <span>(2022 - 2023)</span>
+                    <span>(2021 - 2023)</span>
                 </li>
-                <li>
+                {/* <li>
                     <img src={tiendadolar} alt="logo" />
                     <div className="col" style={{ flex: 1 }}>
                         <strong>TiendaDólar</strong>
                         <span>Angular Developer</span>
                     </div>
                     <span>(2021 - 2022)</span>
-                </li>
+                </li> */}
             </ul>
         </div>
     );
