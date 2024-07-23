@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev-portfolio/static/css/main.2132164b.css",
-    "main.js": "/dev-portfolio/static/js/main.cf61b39f.js",
+    "main.css": "/dev-portfolio/static/css/main.281ea961.css",
+    "main.js": "/dev-portfolio/static/js/main.1e65d5a8.js",
     "static/js/453.5a253c7e.chunk.js": "/dev-portfolio/static/js/453.5a253c7e.chunk.js",
     "static/media/profilePhoto.jpg": "/dev-portfolio/static/media/profilePhoto.6c5986d085a942d12dc0.jpg",
     "static/media/financial-02.PNG": "/dev-portfolio/static/media/financial-02.96c7592012ef24596d01.PNG",
@@ -22,17 +22,18 @@
     "static/media/veganInspector-cover.jpg": "/dev-portfolio/static/media/veganInspector-cover.373ca0e2a29b25d467f5.jpg",
     "static/media/financial-cover.jpg": "/dev-portfolio/static/media/financial-cover.2259c7d702f2a3c04a8b.jpg",
     "static/media/tiendacrypto-cover.jpg": "/dev-portfolio/static/media/tiendacrypto-cover.0d10f2e4ec1820f9b3da.jpg",
+    "static/media/Chien-Hsi-Yao-iOS-Developer-Resume.pdf": "/dev-portfolio/static/media/Chien-Hsi-Yao-iOS-Developer-Resume.493106b76d4ccb74ed90.pdf",
     "static/media/tiendadolar.png": "/dev-portfolio/static/media/tiendadolar.ebd39016278deddc4498.png",
     "static/media/swiftui.png": "/dev-portfolio/static/media/swiftui.68f87e5e94605030d581.png",
     "static/media/accelone.svg": "/dev-portfolio/static/media/accelone.92bacccbac434ad53d7a7f584a94be7e.svg",
     "static/media/swift.svg": "/dev-portfolio/static/media/swift.9558f201cb94ecae3eecd6d0fa43b39c.svg",
     "index.html": "/dev-portfolio/index.html",
-    "main.2132164b.css.map": "/dev-portfolio/static/css/main.2132164b.css.map",
-    "main.cf61b39f.js.map": "/dev-portfolio/static/js/main.cf61b39f.js.map",
+    "main.281ea961.css.map": "/dev-portfolio/static/css/main.281ea961.css.map",
+    "main.1e65d5a8.js.map": "/dev-portfolio/static/js/main.1e65d5a8.js.map",
     "453.5a253c7e.chunk.js.map": "/dev-portfolio/static/js/453.5a253c7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2132164b.css",
-    "static/js/main.cf61b39f.js"
+    "static/css/main.281ea961.css",
+    "static/js/main.1e65d5a8.js"
   ]
 }
